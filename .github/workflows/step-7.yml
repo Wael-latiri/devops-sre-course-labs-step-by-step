@@ -4,7 +4,7 @@ on: [push]
 env:
   APPLICATION_NAME: flaskapp
   REGISTRY: ghcr.io
-  IMAGE_NAME: /home/Wael-latiri/.ssh/devops/devops-labs-flask-app
+  IMAGE_NAME: Wael-latiri/devops-labs-flask-app
 jobs:
   lint:
     runs-on: ubuntu-22.04
